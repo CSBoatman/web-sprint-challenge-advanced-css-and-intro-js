@@ -141,7 +141,32 @@ button:hover{
 @media (max-width: 500px) {
     * {
         /* ---Debug Border--- */
-         border: 1px solid red; 
+        /*border: 1px solid red;*/
+    }
+
+    nav a {
+        font-size: 2rem;
+        padding: 0 5%;
+    }
+
+    .title-container div {
+        width: 100%;
+    }
+
+    .title-container hr {
+        width: 100%;
+    }
+
+    .artists-container {
+        flex-flow: column;
+    }
+
+    .artist {
+        width: 100%;
+    }
+
+    img {
+        height: 26rem;
     }
 
 /* ---MediaQuery for 500px End---*/
