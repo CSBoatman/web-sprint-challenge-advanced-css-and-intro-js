@@ -286,11 +286,19 @@ Use addArtist to do the following:
 3. Return the resulting array
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/){
-    /*Your Code Here*/
+function addArtist(arr){
+    arr.push({ 
+      id: 20,
+      name: Connor Boatman, 
+      years: "1996 - 2021",
+      genre: Web Design, 
+      nationality: Caucasian,
+      bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc arcu leo, placerat."
+    });
+    return arr;
   }
 
-  
+  console.log(addArtist(artists));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use lotsOfArt to do the following: 
